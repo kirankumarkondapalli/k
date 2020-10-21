@@ -1,5 +1,4 @@
 *{
-     
     box-sizing: border-box;
 }
 body{
@@ -7,7 +6,6 @@ body{
 }
 .navbar{
     display: flex;
-  
     padding:10px;
 }
 nav{
@@ -28,10 +26,10 @@ nav li:hover{
 }
 a{
     text-decoration: none;
-    color: red;
+    color:#FF0000;
 }
 p{
-    color:blue;
+    color:#0000FF;
     margin-bottom: 20px;
 }
 .container{
@@ -52,22 +50,17 @@ p{
 }
 .col-2 img{
     max-width:100%;
-    padding:0px 0;
-    
+    padding:0px 0;  
 }
-
 .col-2 h1{
     font-size: 40px;
     line-height: 0px;
-    margin: 10px 0px;
-    
+    margin: 10px 0px;   
 }   
 .btn{
-  
     background:#ff523b;
     color: #fff;
     padding:8px 30px;
-
     border-radius: 30px;
 }
 .btn:hover{
@@ -114,7 +107,6 @@ p{
 h4{
     color:#555;
     font-weight:normal;
-
 }
 .col-4 p{
     font-size:14px;
@@ -123,17 +115,12 @@ h4{
     color:#ff523b
 }
 .col-4:hover{
-   
 }
-/*-----------------------footer-------------------------*/
-
-
 .footer{
-    background: black; 
+    background:#000000; 
     color: #8a8a8a;
     font-size: 14px;
-    padding:60px 0 20px;
-    
+    padding:60px 0 20px;   
 }
 .footer p{
     color: #8a8a8a;
@@ -147,11 +134,10 @@ h4{
     margin-bottom:20px;
 }
 .footer-col-1 li, .footer-col-2 li:hover{
-    color: blanchedalmond;
+    color: #ffebcc;
 }
 .app-logo{
     margin-top: 20px;
-
 }
 .app-logo img{
     width: 140px;
@@ -163,14 +149,5 @@ footer hr{
     margin: 30px 0;
 }
 .copyright{
-    text-align: center;
-    
+    text-align: center;   
 }
-
-
-
-
-
-
-
-
